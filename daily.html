@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body class="hero">
+    <div class="task-page">
+        <h1>Write down your tasks for the day!</h1>
+        <form>
+            <label for="task">Add a task:</label>
+            <input type="text" id="task" name="task" placeholder="Enter a task">
+            <button type="button" onclick="addTask()">Add</button>
+        </form>
+        <ul id="task-list">
+            <!-- Task items will be added here dynamically -->
+        </ul>
+    </div>
+    <script src="daily.js"></script>
+</body>
+  <body>
+      <nav class="navbar">
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="daily.html">Daily</a></li>
+              <li><a href="about.html">About</a></li>
+          </ul>
+      </nav>
+  </body>
+</html>
